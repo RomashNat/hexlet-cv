@@ -22,6 +22,19 @@ export default {
           startWithProjects: 'Start with projects →',
         },
       },
+      adminPage: {
+        webinars: {
+          title: 'Webinars',
+          input: 'Search: title/date/link',
+          button: 'Create',
+          webinarTitle: 'Title',
+          webinarDate: 'Date',
+          webinarRegistration: 'Registration',
+          webinarRecording: 'Recording',
+          webinarFeatured: 'Featured',
+          webinarPublished: 'Published',
+        },
+      },
       whoWeAre: {
         title: 'Hello, we are Hexlet',
         subtitle: 'ecosystem for starting and developing in IT:',

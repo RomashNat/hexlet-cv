@@ -22,6 +22,19 @@ export default {
           startWithProjects: 'Начать с проектов →',
         },
       },
+      adminPage: {
+        webinars: {
+          title: 'Вебинары',
+          input: 'Поиск: название/дата/ссылка',
+          button: 'Создать',
+          webinarTitle: 'Название',
+          webinarDate: 'Дата',
+          webinarRegistration: 'Регистрация',
+          webinarRecording: 'Запись',
+          webinarFeatured: 'Фичер',
+          webinarPublished: 'Публикация',
+        },
+      },
       whoWeAre: {
         title: 'Привет, мы Хекслет',
         subtitle: 'экосистема для старта и развития в IT:',
