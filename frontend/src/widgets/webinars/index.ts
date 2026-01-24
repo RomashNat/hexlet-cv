@@ -1,1 +1,1 @@
-export { Webinars } from "./ui/Webinars"
+export { Webinars, type WebinarDTO } from "./ui/Webinars"

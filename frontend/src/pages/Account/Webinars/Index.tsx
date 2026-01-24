@@ -1,29 +1,19 @@
 import type { InertiaPage } from '@shared/types/inertia'
 import { AppLayout } from '../components/AppLayout'
-import { Webinars } from '@widgets/webinars'
-
-type WebinarsEntry = {
-  id: number
-  title: string
-  date: string
-  registrationLink: string
-  recordingLink: string
-  isFeatured: boolean
-  isPublished: boolean
-}
+import { Webinars as WebinarsWidget, type WebinarDTO } from '@widgets/webinars'
 
 type TProps = {
-  webinars: WebinarsEntry[]
+  webinars: WebinarDTO[]
 }
 
-const WebinarsPage: InertiaPage<TProps> = ({ webinars }) => {
-  return <Webinars webinars={webinars} />
+const Webinars: InertiaPage<TProps> = ({ webinars }) => {
+  return <WebinarsWidget webinars={webinars} />
 }
 
-WebinarsPage.layout = page => (
+Webinars.layout = page => (
   <AppLayout>
     {page}
   </AppLayout>
 )
 
-export default WebinarsPage
+export default Webinars
